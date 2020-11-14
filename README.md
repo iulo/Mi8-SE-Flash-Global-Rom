@@ -1,7 +1,7 @@
 # Mi8-SE-Flash-Global-Rom(小米8SE刷国际版系统)
 
 
-小米8SE并未在全球上市，所以通常意义上的国际版(https://c.mi.com/)是没有mi8 se的rom的，不过我们依然可以刷入更纯净的欧洲版miui(https://xiaomi.eu/)，所以以下语境中的国际版都是指的EU版本
+小米8SE并未在全球上市，所以通常意义上的国际版(https://c.mi.com/) 是没有mi8 se的rom的，不过我们依然可以刷入更纯净的欧洲版miui(https://xiaomi.eu/) ，所以以下语境中的国际版都是指的EU版本
 
 **小米8SE不能直接刷国际版系统，需要先刷低版本的国行miui底包，再刷同大系列的EU版本miui，再从低版本的EU版升级刷入EU版的miui 12**
 
@@ -18,7 +18,7 @@
     - [EU版的miui 12](https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/xiaomi.eu_multi_MI8SE_V12.0.2.0.QEBCNXM_v12-10.zip/download)，这个是当下节点最新的miui 12，需要其他版本的可以去 https://xiaomi.eu/ 自行寻找
     - 手机进入fastboot模式的方法为：音量下键+电源键，重启手机，下文会使用
   
-4. 刷入cn rom的底包：重启手机进入fastboot模式，数据线连接电脑，使用mi flash线刷入 China 8.12.13 developer fastboot版rom，重启手机并正常进入系统
+4. 刷入cn rom的底包：重启手机进入fastboot模式，数据线连接电脑，使用mi flash线刷入 `China 8.12.13 developer fastboot`版rom，重启手机并正常进入系统
 5. 刷入TWRP的recovery：重启手机进入fastboot模式，用数据线连接电脑，打开你的Terminal（windows就是cmd或者powershell）,执行如下命令
   ```sh
   fastboot flash recovery recovery-TWRP-3.2.3-1102.img
@@ -43,5 +43,5 @@
 
 
 ## 参考引用
- - youtube.com/watch?v=v4Pl9iY3u3w
+ - https://youtube.com/watch?v=v4Pl9iY3u3w
  - https://www.zhihu.com/question/50231539
