@@ -19,11 +19,12 @@
     - 手机进入fastboot模式的方法为：音量下键+电源键，重启手机，下文会使用
   
 4. 刷入cn rom的底包：重启手机进入fastboot模式，数据线连接电脑，使用mi flash线刷入 `China 8.12.13 developer fastboot`版rom，重启手机并正常进入系统
+   ![avatar](./imgs/miflash.png)
 5. 刷入TWRP的recovery：重启手机进入fastboot模式，用数据线连接电脑，打开你的Terminal（windows就是cmd或者powershell）,执行如下命令
   ```sh
   fastboot flash recovery recovery-TWRP-3.2.3-1102.img
   ```
-  得到如图结果 ![avatar](./imgs/1.png)
+  得到如图结果 ![avatar](./imgs/fastboot-flash.png)
 
   然后执行，进入recovery
   ```sh
